@@ -1,5 +1,5 @@
 *{
-    border: 0;
+    box-sizing: border-box;
     margin: 0;
     padding:0;
 }
@@ -11,8 +11,6 @@ html{
 
 body{
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
@@ -22,25 +20,25 @@ body{
 }
 
 h1{
-    font-weight: bold;
+    font-weight: 800;
 }
 
 h3{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #050b1f;
 }
 
 h4{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 0.9rem;
 }
 
 h5{
     margin-top: 0.4rem;
     font-size: 0.7rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 header{
@@ -50,7 +48,7 @@ header{
 }
 
 #profile-img{
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 #profile-img img{
@@ -86,14 +84,14 @@ ul{
 }
 
 li{
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
 }
 
 
 p{
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     line-height: 1.8;
 }
 
